@@ -1,0 +1,7 @@
+.Borda {
+	border: 2px solid black;
+	/*display: inline; -- Preenchimento de acordo com o conteudo */
+	/*display: block; -- Ocupa todo o espaço */
+	/*display: inline-block; -- Preenchimento de acordo com o conteudo e ocupa o espeço*/
+	
+}
