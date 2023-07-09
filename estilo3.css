@@ -1,0 +1,50 @@
+body{
+	background: blue;
+}
+
+
+#Container{
+	background: white;
+	width: 800px;
+	margin: 10px auto;
+	padding: 10px;
+	position: relative;
+
+}
+
+.Relative{
+	border: 2px solid black;
+	position: relative;
+	/* top, right, bottom e left */
+	/*top: -20px;*/
+	/*left: 0px;*/
+	/*right: 20px;*/
+	bottom: -20px;
+}
+
+.Fixed {
+	position: fixed;
+	background: blue;
+	border: 2px solid black;
+	top: 0px;
+	right: 0px;
+}
+
+.Absolute {
+	position: absolute;
+	background: blue;
+	border: 2px solid black;
+	top: 80px;
+	right: 20px;
+	margin: 0px;
+}
+
+h1 {
+	/*position: static; -- Padrão */
+	
+}
+
+p {
+	/*position: static; -- Padrão */
+	width: 300px;
+}
