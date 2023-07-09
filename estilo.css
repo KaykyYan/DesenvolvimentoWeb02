@@ -1,0 +1,85 @@
+/*
+Modelo de Caixa
+
+
+.Conteudo {
+	border: 1px solid blue;
+	padding-top: 20px; parte superior
+	padding-right: 20px; parte da lateral direita
+	padding-bottom: 20px; parte inferior
+	padding-left: 20px; parte da lateral esquerda
+
+	padding: 20px 15px 10px 5px;
+	padding: 20px 5px;
+	padding: 20px;
+
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px; 
+
+	margin: 10px;
+
+	width: 150px;
+}
+
+
+.Conteudo2 {
+	margin: 50px;
+	width: 150px;
+	border: 1px solid blue;
+	padding: 20px;
+}
+*/
+
+/*
+Noticia
+*/
+
+/*#Noticias {
+	background: blue;
+	border: 1px solid white;
+	padding: 10px;
+}
+
+h2 {
+	margin: 0px;
+
+}
+*/
+
+.Conteudo {
+	background: blue;
+	border: 1px solid white;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	float: right;
+
+}
+
+.Conteudo1 {
+	background: black;
+	border: 1px solid white;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	
+}
+
+/*.Conteudo0 {
+	background: black;
+	border: 1px solid white;
+	width: 150px;
+	height: 150px;
+	
+}*/
+
+.Clear {
+	clear: both;
+}
+
+#Principal{
+	border: 2px solid black;
+	background: green;
+}
