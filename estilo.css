@@ -1,4 +1,100 @@
-		     	.texto{
-		     		color: white;
-		     		background: orange;
-		     	}
+/** Seletor Universal */
+
+/* * { 
+    border: 1px solid red;
+} */
+
+/** Seletor de Texto */
+
+/** h1 {
+    color: green;
+} */
+
+/** Seletor de classe */
+
+/* .verde {
+    color: green;
+}
+
+p.verde {
+    color: green;
+} */
+
+/* Seletor de ID*/
+
+/* #cabecalho {
+    border: 1px solid blue;
+} */
+
+/* Seletor de Filho */
+
+/* li>a {
+    color: blue;
+    text-decoration: none;
+} */
+
+/* Seletor de Descendente */
+
+/* div a {
+    color: blue;
+} */
+
+/* Seletor de Irmão Adjacente */
+
+/* h1+p {
+    color: brown;
+} */
+
+/* Seletor de Irmão Geral */
+
+/* h1~p {
+    color: aqua;
+} */
+
+
+
+/*
+Herança e Especificidade 
+*/
+
+/* body {
+    color: blue;
+    border: 1px solid black;
+    background: goldenrod;
+} */
+
+/* Especificidade
+*/
+
+/* Seletores iguais, exceção importamt 
+#Pagina p {
+    color: blueviolet !important;
+} 
+
+#Pagina p {
+    color: black;
+} */
+
+/* Se um seletor for mais especifico que outro
+a regra mais especiica será aplicada
+(tera precedencia sobre mais gerais)
+*/
+
+* { 
+    color: brown;
+}
+
+h2 { /*3*/
+    color: black;
+}
+
+h2.verde { /*2*/
+    color: green;
+}
+
+h2#amarelo { /*1*/
+    color: yellowgreen;
+}
+
+/* Com isso, entendemos a regra 
+de precedências nos exemplos acima. */

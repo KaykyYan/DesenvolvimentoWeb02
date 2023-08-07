@@ -1,27 +1,5 @@
-body {
-	background: #D7D7D9;
+/** Seletor de Texto */
+
+h1 {
+    color: green;
 }
-
-
-#Principal {
-	width: 920px;
-}
-
-.Noticia {
-	background: #BABABF;
-	padding: 5px;
-	width: 200px;
-	margin: 8px;
-	float: left;
-}
-
-.Imagem-Galeria {
-	background: #D7D7D9;
-	width: 265px;
-	padding: 5px;
-	float: left;
-	margin: 15px;
-}
-
-.Clear {
-	clear: both;

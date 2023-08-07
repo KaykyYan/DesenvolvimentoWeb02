@@ -1,50 +1,37 @@
-body{
-	background: blue;
+/** Barra de navegação horizontal */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url(../imagem/fundo-horizontal.png) repeat-x;
+    float: left;
 }
 
-
-#Container{
-	background: white;
-	width: 800px;
-	margin: 10px auto;
-	padding: 10px;
-	position: relative;
-
+ul li {
+    float: left;
 }
 
-.Relative{
-	border: 2px solid black;
-	position: relative;
-	/* top, right, bottom e left */
-	/*top: -20px;*/
-	/*left: 0px;*/
-	/*right: 20px;*/
-	bottom: -20px;
+ul a {
+    display: block;
+    padding: 0 2em; 
+    line-height: 2.2em;
+    text-decoration: none;
+    color: white;
+    background: url(../imagem/divisor.png) repeat-y left top;
 }
 
-.Fixed {
-	position: fixed;
-	background: blue;
-	border: 2px solid black;
-	top: 0px;
-	right: 0px;
+ul .primeiro a {
+    background: none;
 }
 
-.Absolute {
-	position: absolute;
-	background: blue;
-	border: 2px solid black;
-	top: 80px;
-	right: 20px;
-	margin: 0px;
+ul a:hover {
+    color: #085662;
+    background: #44cade;
 }
 
-h1 {
-	/*position: static; -- Padrão */
-	
-}
-
-p {
-	/*position: static; -- Padrão */
-	width: 300px;
+#home #navegacao .home a, #sobre #navegacao .sobre a, #servicos #navegacao .servicos a, #noticias #navegacao .noticias a, #contato #navegacao .contato a{
+    color: #085662;
+    background: #44cade;
 }
